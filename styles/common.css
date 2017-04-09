@@ -1,0 +1,584 @@
+*, *::before, *::after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body, html {
+   height:100%;
+   background-color: #FAFAFA;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.column {
+         float: left;
+     }
+
+.column.full { width: 100%; }
+.column.two-thirds { width: 66.7%; }
+.column.half { width: 50%;}
+.column.third { width: 33.3%; }
+.column.fourth { width: 25%; }
+.column.three-fourths { width: 75%; }
+.column.flow-opposite { float: right; }
+.column.tenth { width: 10%; }
+.column.nine-tenth { width: 90%; }
+.column.three-fifths{width: 60%;}
+.column.two-fifths{width: 40%;}
+.column.four-fifths{width:80%}
+.column.one-fifths{width:20%}
+
+.fa.fa-navicon.dropbtn{
+    font-size: 32px;
+}
+
+#myIframe {
+    width: 600px;
+    height: 600px;
+}
+
+
+
+.iframe-box-reading-worship{
+    width: 60%;
+    height: 600px;
+    
+}
+
+.iframe-box-reading{
+    width: 60%;
+    height: 600px;
+    
+    -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+    
+    -moz-box-shadow: 4px 4px 14px #000;
+  -webkit-box-shadow: 4px 4px 14px #000;
+  box-shadow: 4px 4px 14px #000;
+    
+    margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 1%;  
+  
+  filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+    
+}
+
+.mobile-tabs{
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    background-color: #438496;
+    background: -webkit-linear-gradient(left top, #438496, rgba(67, 132, 150, .7));
+
+    text-align: center;
+    color: white;
+    display: none;
+}
+
+.exercise-box:hover{
+    cursor: pointer;
+    
+}
+
+#contemporary-choice{
+    color: #438496;
+}
+
+#traditional-choice{
+    color: #438496;
+}
+
+#contemporary-choice:hover{
+    color: #D6665A;
+    cursor: pointer;
+}
+
+#traditional-choice:hover{
+    color: #D6665A;
+    cursor: pointer;
+}
+
+#contemporary-worship{
+    margin-top: 0%;
+}
+
+#traditional-hymns{
+    margin-top: 0%;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: rgba(214, 102, 90, .9);
+}
+
+.hidden{
+    display: none;
+}
+
+.tooltip:hover {
+    cursor: pointer;
+}
+
+.act-title i{
+    margin-right: 1%;
+}
+
+.buffer{
+    margin-top: 10%;
+}
+
+.fill{
+    position: fixed;
+    bottom: 0;
+}
+
+.instructions{
+    font-size: 32px;
+    text-align: center;
+    Font-family: Ubuntu, Helvetica, Arial, sans-serif;
+    margin-bottom: 0%;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 500px;
+    background-color: #438496;
+    background: -webkit-linear-gradient(left top, #438496, rgba(67, 132, 150, .8));
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 20px;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: Ubuntu, Helvetica, Arial, sans-serif;
+
+    /* Position the tooltip */
+    position: absolute;
+    top:10px;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+p{
+    Font-family: Ubuntu, Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: 'Bitter', serif;
+}
+
+h1{
+    font-family: 'Bitter', serif;
+}
+
+h2{
+    font-family: 'Bitter', serif;}
+
+h4{
+    Font-family: Ubuntu, Helvetica, Arial, sans-serif;
+}
+
+.nav-bar h2:hover{
+    font-weight: bolder;
+}
+
+.nav-bar{
+    background-color: #438496;
+    background: -webkit-linear-gradient(left top, #438496, rgba(67, 132, 150, .7));
+
+    text-align: center;
+    color: white;
+}
+
+.nav-bar h2{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+.logo{
+    text-align: left;
+    height: 70px;
+    display: table;
+}
+
+.sponsor{
+    height: 70px;
+    display: table;
+}
+
+.FAQ {
+    height: 70px;
+    display: table;
+}
+
+.sponsor h2{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.FAQ h2{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.logo img{
+    height: 50px;
+    width: auto;
+    display: table-cell;
+    vertical-align: middle;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.footer{
+    background-color: #438496;
+    background: -webkit-linear-gradient(left top, #438496, rgba(67, 132, 150, .7));
+
+    text-align: center;
+    color: white;
+}
+
+.footer h2{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+.footer p{
+    font-size: .7rem;
+    text-align:center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.copyright{
+    height:60px;
+    display: table;
+}
+
+.faq{
+    height:60px;
+    display: table;
+}
+
+.faq h2{
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.icon{
+    height:60px;
+    display: table;
+}
+
+.icon i{
+    text-align:center;
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 36px;
+}
+
+.container{
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+.background{
+    width: 60%;
+}
+
+.title{
+    background-color: #FFFFFF;
+    margin-top: 0%;
+    box-shadow: 5px 0 5px -4px rgba(31, 73, 125, 0.8), -5px 0 4px -4px rgba(31, 73, 125, 0.8);
+}
+
+.title h2{
+    text-align: center;
+    font-size: 36px;
+}
+
+.button{
+     background-color: #D6665A;
+    text-shadow: #591717 1px 1px 1px;
+    height: 70px;
+    display: table;
+    box-shadow: 6px 0 8px -4px rgba(31, 73, 125, 0.8), -6px 0 8px -4px rgba(31, 73, 125, 0.8);
+}
+
+.button h1{
+    text-align: center;
+    font-size: 24px;
+    color:white;
+    font-family: Ubuntu, Helvetica, Arial, sans-serif; 
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.paxises{
+    height:70px;
+    display: table;
+}
+
+.column.nine-tenth.paxises h4{
+    
+}
+
+div.column.four-fifths.paxises h3{
+    text-align: left;
+    padding-left: 3%;
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: bolder;
+}
+
+div.column.one-fifths.paxises h3{
+    text-align: right;
+    padding-right: 10%;
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: bolder;
+}
+
+div.column.four-fifths.paxises h4{
+    text-align: left;
+    padding-left: 3%;
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: lighter;
+}
+
+div.column.one-fifths.paxises h4{
+    text-align: right;
+    padding-right: 10%;
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: lighter;
+}
+
+.box{
+    height:70px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid black;
+    box-shadow: 5px 0 5px -4px rgba(31, 73, 125, 0.8), -5px 0 4px -4px rgba(31, 73, 125, 0.8);
+}
+
+.top{
+    border-top: 1px solid black;
+}
+
+
+.box.final{
+    border-bottom: 1px solid #FFFFFF;
+}
+
+button {
+    background-color: #D6665A;
+    border: none;
+    color: white;
+    padding: 25px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 24px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 15px;
+    margin-bottom: 5%;
+    font-weight: inherit;
+}
+
+.next-button{
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+button:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.fa.fa-info-circle.icon-title{
+    font-size: 14px;
+    padding-left: 1%;
+}
+
+.fa.fa-question-circle.icon-title:hover{
+    cursor: pointer;
+}
+
+#date{
+    
+}
+
+.date{
+    margin-left: auto;
+   margin-right: auto;
+    float: none;
+}
+
+.date-arrow{
+    display: table;
+    height: 120px;
+}
+
+.date-arrow i{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 36px;
+}
+
+
+h1 i{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: table-cell;
+    vertical-align: middle;
+    float: left;
+    margin-top: 1%;
+}
+
+.date h1{
+    font-size: 48px;
+    font-family: 'Bitter', serif;
+    display: table;
+    height: 50px;
+    width: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.act-title h2{
+    font-size: 48px;
+}
+
+@media (max-width: 820px) {
+    .container{
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    
+    .column.three-fourths.date{
+        width: 100%;
+    }
+    
+    .iframe-box-reading-worship{
+        width: 80%;
+        height: 600px;
+    }
+    
+    .iframe-box-reading{
+        width: 80%;
+        height: 600px;
+    }
+    
+    .act-title h2{
+        font-size: 36px;
+    }
+    
+    p{
+        font-size: 18px;
+    }
+    
+}
+
+@media (max-width: 615px) {
+    .container{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    
+    .column.three-fourths.date{
+        width: 100%;
+    }
+    
+    .date h1{
+        font-size: 36px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    
+    .column.three-fifths.actual-date{
+        height: 120px;
+        display: table;
+    }
+    
+    .date-arrow i{
+      font-size: 24px;
+    }
+    
+    .title h2{
+        font-size: 28px;
+    }
+    
+    .iframe-box-reading-worship{
+        width: 90%;
+        height: 600px;
+    }
+    
+    .iframe-box-reading{
+        width: 90%;
+        height: 600px;
+    }
+    
+    
+    .tooltip .tooltiptext {
+    width: 300px;
+    left: -100px
+}
+}
+
+@media (max-width: 400px) {
+    
+    .act-title h2{
+        font-size: 26px;
+    }
+    
+    .tooltip .tooltiptext {
+        width: 250px;
+        font-size: 14px;
+        left: -10px
+    }
+    
+    p{
+        font-size: 16px;
+    }
+    
+     .iframe-box-reading-worship{
+        height: 200px;
+    }
+    
+    .iframe-box-reading{
+        height: 450px;
+        padding: 1%;
+         -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+    }
+    
+    .instructions {
+        font-size: 26px;
+    }
+    
+    button {
+        padding: 20px 20px;
+        font-size: 18px;
+    }
+    
+}
