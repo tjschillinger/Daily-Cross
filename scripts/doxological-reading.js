@@ -60,7 +60,7 @@
 
         document.getElementById("instructions-doxological").innerHTML = "Read Psalm 92";
 
-        document.getElementById("doxological-reading").src = "http://www.biblestudytools.com/psalms/92.html";
+        document.getElementById("doxological-reading").src = "http://biblehub.com/niv/psalms/92.htm";
     };
 
     if (x==="April 10th"){
