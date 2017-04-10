@@ -67,7 +67,7 @@
 
         document.getElementById("instructions-doxological").innerHTML = "Read Psalm 93";
 
-        document.getElementById("doxological-reading").data = "https://www.biblegateway.com/passage/?search=psalms+93&version=NIV";
+        document.getElementById("doxological-reading").data = "https://www.bible.com/bible/111/PSA.93.NIV";
         
     };
 
