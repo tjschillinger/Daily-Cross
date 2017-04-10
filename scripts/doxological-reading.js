@@ -67,7 +67,7 @@
 
         document.getElementById("instructions-doxological").innerHTML = "Read Psalm 93";
 
-        document.getElementById("doxological-reading").src = "https://medium.com/";
+        document.getElementById("doxological-reading").src = "http://www.biblestudytools.com/psalms/93.html";
     };
 
     if (x==="April 11th"){
