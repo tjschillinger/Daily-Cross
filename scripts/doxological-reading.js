@@ -1,4 +1,4 @@
-    var x = (localStorage.getItem("storageName")); 
+    /*var x = (localStorage.getItem("storageName")); 
 
     if (x==="April 1st"){
 
@@ -208,5 +208,5 @@
         document.getElementById("instructions-doxological").innerHTML = "Read Isaiah 42:1-17";
 
         document.getElementById("doxological-reading").src = "http://www.biblestudytools.com/isaiah/42.html";
-    };
+    };*/
 
