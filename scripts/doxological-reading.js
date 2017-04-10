@@ -67,7 +67,8 @@
 
         document.getElementById("instructions-doxological").innerHTML = "Read Psalm 93";
 
-        document.getElementById("doxological-reading").src = "https://nl.hideproxy.me/go.php?u=9ckkx2Sz53rFIWFfaHuhi9lLmtGbg2J8VjbpwR%2FkrQJBOqk2WSdPeN4%3D&b=5&f=norefer";
+        document.getElementById("doxological-reading").src = "http://www.biblestudytools.com/psalms/93.html";
+        document.getElementById("doxological-reading").target = "_top";
     };
 
     if (x==="April 11th"){
@@ -209,4 +210,3 @@
 
         document.getElementById("doxological-reading").src = "http://www.biblestudytools.com/isaiah/42.html";
     };
-
