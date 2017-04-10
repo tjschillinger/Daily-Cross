@@ -1,4 +1,4 @@
-    /*var x = (localStorage.getItem("storageName")); 
+    var x = (localStorage.getItem("storageName")); 
 
     if (x==="April 1st"){
 
@@ -60,14 +60,14 @@
 
         document.getElementById("instructions-doxological").innerHTML = "Read Psalm 92";
 
-        document.getElementById("doxological-reading").src = "http://biblehub.com/niv/psalms/92.htm";
+        document.getElementById("doxological-reading").src = "http://www.biblestudytools.com/psalms/92.html";
     };
 
     if (x==="April 10th"){
 
         document.getElementById("instructions-doxological").innerHTML = "Read Psalm 93";
 
-        document.getElementById("doxological-reading").src = "http://www.biblestudytools.com/psalms/93.html";
+        document.getElementById("doxological-reading").src = "https://www.google.com";
     };
 
     if (x==="April 11th"){
@@ -208,5 +208,5 @@
         document.getElementById("instructions-doxological").innerHTML = "Read Isaiah 42:1-17";
 
         document.getElementById("doxological-reading").src = "http://www.biblestudytools.com/isaiah/42.html";
-    };*/
+    };
 
