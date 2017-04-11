@@ -399,8 +399,17 @@ button {
     font-size: 24px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     border-radius: 15px;
-    margin-bottom: 5%;
+    margin-bottom: 0%;
     font-weight: inherit;
+}
+
+.back-to-menu{
+    margin-bottom: 5%;
+}
+
+.back-to-menu a{
+    font-weight: lighter;
+    color: #438496;
 }
 
 .next-button{
@@ -421,10 +430,6 @@ button:hover {
 
 .fa.fa-question-circle.icon-title:hover{
     cursor: pointer;
-}
-
-#date{
-    
 }
 
 .date{
