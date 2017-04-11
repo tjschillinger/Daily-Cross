@@ -45,43 +45,43 @@ function checkDate() {
     if ($('#date').text() == "April 8th"){
         document.getElementById("doxological-home").innerHTML = "Act 3: <b>Read Psalm 91</b>";
         document.getElementById("practical-home").innerHTML = "Act 4: <b>Read Proverbs 8</b>";
-        document.getElementById("missional-home").innerHTML = "Act 5: <b>Read 1Sam 1-3</b>";
+        document.getElementById("missional-home").innerHTML = "Act 5: <b>Read 1 Samuel 1-3</b>";
     };
 
     if ($('#date').text() == "April 9th"){
         document.getElementById("doxological-home").innerHTML = "Act 3: <b>Read Psalm 92</b>";
         document.getElementById("practical-home").innerHTML = "Act 4: <b>Read Proverbs 9</b>";
-        document.getElementById("missional-home").innerHTML = "Act 5: <b>Read 1Sam 4-8</b>";  
+        document.getElementById("missional-home").innerHTML = "Act 5: <b>Read 1 Samuel 4-8</b>";  
     };
 
     if ($('#date').text()==="April 10th"){
         document.getElementById("doxological-home").innerHTML = "Act 3: <b>Read Psalm 93</b>";
         document.getElementById("practical-home").innerHTML = "Act 4: <b>Read Proverbs 10</b>";
-        document.getElementById("missional-home").innerHTML = "Act 5: <b>Read 1Sam 9-12</b>";  
+        document.getElementById("missional-home").innerHTML = "Act 5: <b>Read 1 Samuel 9-12</b>";  
     };
 
     if ($('#date').text()==="April 11th"){
         document.getElementById("doxological-home").innerHTML = "Act 3: <b>Read Psalm 94</b>";
         document.getElementById("practical-home").innerHTML = "Act 4: <b>Read Proverbs 11</b>";
-        document.getElementById("missional-home").innerHTML = "Act 5: <b>Read 1Sam 13-14</b>";  
+        document.getElementById("missional-home").innerHTML = "Act 5: <b>Read 1 Samuel 13-14</b>";  
     };
 
     if ($('#date').text()==="April 12th"){
         document.getElementById("doxological-home").innerHTML = "Act 3: <b>Read Psalm 95</b>";
         document.getElementById("practical-home").innerHTML = "Act 4: <b>Read Proverbs 12</b>";
-        document.getElementById("missional-home").innerHTML = "Act 5: <b>Read 1Sam 15-17</b>";  
+        document.getElementById("missional-home").innerHTML = "Act 5: <b>Read 1 Samuel 15-17</b>";  
     };
 
     if ($('#date').text()==="April 13th"){
         document.getElementById("doxological-home").innerHTML = "Act 3: <b>Read Psalm 96</b>";
         document.getElementById("practical-home").innerHTML = "Act 4: <b>Read Proverbs 13</b>";
-        document.getElementById("missional-home").innerHTML = "Act 5: <b>Read 1Sam 18-20</b>";  
+        document.getElementById("missional-home").innerHTML = "Act 5: <b>Read 1 Samuel 18-20</b>";  
     };
 
     if ($('#date').text()==="April 14th"){
         document.getElementById("doxological-home").innerHTML = "Act 3: <b>Read Psalm 97</b>";
         document.getElementById("practical-home").innerHTML = "Act 4: <b>Read Proverbs 15</b>";
-        document.getElementById("missional-home").innerHTML = "Act 5: <b>Read 1Sam 21-24</b>";  
+        document.getElementById("missional-home").innerHTML = "Act 5: <b>Read 1 Samuel 21-24</b>";  
     };
 
     if ($('#date').text()==="April 15th"){
@@ -99,7 +99,7 @@ function checkDate() {
     if ($('#date').text()==="April 17th"){
         document.getElementById("doxological-home").innerHTML = "Act 3: <b>Read Psalm 100</b>";
         document.getElementById("practical-home").innerHTML = "Act 4: <b>Read Proverbs 17</b>";
-        document.getElementById("missional-home").innerHTML = "Act 5: <b>Read 1Samuel 25-27</b>";  
+        document.getElementById("missional-home").innerHTML = "Act 5: <b>Read 1 Samueluel 25-27</b>";  
     };
 
     if ($('#date').text()==="April 18th"){
@@ -111,7 +111,7 @@ function checkDate() {
     if ($('#date').text()==="April 19th"){
         document.getElementById("doxological-home").innerHTML = "Act 3: <b>Read Psalm 102</b>";
         document.getElementById("practical-home").innerHTML = "Act 4: <b>Read Proverbs 19</b>";
-        document.getElementById("missional-home").innerHTML = "Act 5: <b>Read 1Samuel 28-31</b>";  
+        document.getElementById("missional-home").innerHTML = "Act 5: <b>Read 1 Samuel 28-31</b>";  
     };
 
     if ($('#date').text()==="April 20th"){
@@ -123,7 +123,7 @@ function checkDate() {
     if ($('#date').text()==="April 21st"){
         document.getElementById("doxological-home").innerHTML = "Act 3: <b>Read Psalm 104 </b>";
         document.getElementById("practical-home").innerHTML = "Act 4: <b>Read Proverbs 21</b>";
-        document.getElementById("missional-home").innerHTML = "Act 5: <b>Read 2Samuel 1-4</b>";  
+        document.getElementById("missional-home").innerHTML = "Act 5: <b>Read 2 Samuel 1-4</b>";  
     };
 
     if ($('#date').text()==="April 22nd"){
@@ -135,7 +135,7 @@ function checkDate() {
     if ($('#date').text()==="April 23rd"){
         document.getElementById("doxological-home").innerHTML = "Act 3: <b>Read Psalm 106 </b>";
         document.getElementById("practical-home").innerHTML = "Act 4: <b>Read Proverbs 23</b>";
-        document.getElementById("missional-home").innerHTML = "Act 5: <b>Read 1Chronicles 1-2</b>";  
+        document.getElementById("missional-home").innerHTML = "Act 5: <b>Read 1 Chronicles 1-2</b>";  
     };
 
     if ($('#date').text()==="April 24th"){
@@ -147,7 +147,7 @@ function checkDate() {
     if ($('#date').text()==="April 25th"){
         document.getElementById("doxological-home").innerHTML = "Act 3: <b>Read Psalm 108</b>";
         document.getElementById("practical-home").innerHTML = "Act 4: <b>Read Proverbs 25</b>";
-        document.getElementById("missional-home").innerHTML = "Act 5: <b>Read 1Chronicles 3-5</b>";  
+        document.getElementById("missional-home").innerHTML = "Act 5: <b>Read 1 Chronicles 3-5</b>";  
     };
 
     if ($('#date').text()==="April 26th"){
@@ -159,7 +159,7 @@ function checkDate() {
     if ($('#date').text()==="April 27th"){
         document.getElementById("doxological-home").innerHTML = "Act 3: <b>Read Psalm 110</b>";
         document.getElementById("practical-home").innerHTML = "Act 4: <b>Read Proverbs 27</b>";
-        document.getElementById("missional-home").innerHTML = "Act 5: <b>Read 1Chronicles 6</b>";  
+        document.getElementById("missional-home").innerHTML = "Act 5: <b>Read 1 Chronicles 6</b>";  
     };
 
     if ($('#date').text()==="April 28th"){
@@ -171,7 +171,7 @@ function checkDate() {
     if ($('#date').text()==="April 29th"){
         document.getElementById("doxological-home").innerHTML = "Act 3: <b>Read Psalm 112</b>";
         document.getElementById("practical-home").innerHTML = "Act 4: <b>Read Proverbs 29</b>";
-        document.getElementById("missional-home").innerHTML = "Act 5: <b>Read 1Chronicles 7-10</b>";  
+        document.getElementById("missional-home").innerHTML = "Act 5: <b>Read 1 Chronicles 7-10</b>";  
     };
 
     if ($('#date').text()==="April 30th"){
