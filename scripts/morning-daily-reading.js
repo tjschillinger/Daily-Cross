@@ -80,7 +80,7 @@ function checkDate() {
 
     if ($('#date').text()==="April 14th"){
         document.getElementById("doxological-home").innerHTML = "Act 3: <b>Read Psalm 97</b>";
-        document.getElementById("practical-home").innerHTML = "Act 4: <b>Read Proverbs 15</b>";
+        document.getElementById("practical-home").innerHTML = "Act 4: <b>Read Proverbs 14</b>";
         document.getElementById("missional-home").innerHTML = "Act 5: <b>Read 1 Samuel 21-24</b>";  
     };
 

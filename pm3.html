@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Hymn of Praise</title>
+  <title>Doxological Reading</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <link href="https://fonts.googleapis.com/css?family=Bitter|Ubuntu" rel="stylesheet">    
+  <link href="https://fonts.googleapis.com/css?family=Bitter|Ubuntu" rel="stylesheet">
   <link rel="stylesheet" href="styles/normalize.css">
   <link rel="stylesheet" href="styles/common.css">
-
+  <link rel="stylesheet" href="styles/acts1.css">
   <link rel="stylesheet" href="styles/font-awesome.css">
 </head>
 <body>
+    
     <!-- nav bar-->
     <div class="nav-bar column full">
         <div class="logo column third">
@@ -26,28 +27,37 @@
         </div>
     </div>
 
-      
+    <div class="mobile-tabs">
+        <div class="logo column third">
+            <a href="index.html"><img  src="images/human_kind_logo.png" alt="Logo"></a>
+        </div>
+        <div class="dropdown">
+            <i class="fa fa-navicon dropbtn"></i>
+            <div class="dropdown-content hidden">
+                <a href="FAQ.html#top">F.A.Q.</a>
+                <a href="Sponsor.html">Become a Sponsor</a>
+            </div>
+        </div>
+    </div>   
 <div class="header colum full container">
     <div class="column full act-title">
-        <h2><i class="fa fa-info-circle icon-title tooltip"><span class="tooltiptext"><b>Pete Lackey Says:</b> <br><br>Why? – Two reasons:  <br><br><div style="text-align: left">{1} I believe God delights to hear us enter His 
-      presence with song, especially since it calls upon every aspect of our 
-      humanity to sing (well), i.e., our minds, hearts, bodies, emotions, 
-      etc., and <br><br>{2} some of God’s greatest ‘gifts’ to the Church (cf. Eph.  
-      4:10) came packaged as hymn writers.  And I like to incorporate the 
-      theological and devotional insights of those faithful giants (from many 
-            different traditions) into my own worship.</div></span></i>Act 1: Hymn of Praise</h2>
-        <p>Begin your morning with a time of worship. Sing a song of worship to Him, devoting your mind, body, and soul.<br><br><a id="contemporary-choice">Contemporary Worship</a><br>or<br><a id="traditional-choice"> Tradional Hymns.</a> </p>
+        <h2><i class="fa fa-info-circle icon-title tooltip"><span class="tooltiptext"><b>Pete Lackey Says:</b> <br><br>Why? – Two reasons:  <br><br><div style="text-align: left">Simply because I have three ‘doxological’ goals that this short 
+      exercise helps me reach each evening: {1} to reframe 
+      my mind after the events of the day; {2} to draw upon the riches of 
+      ‘devotional’ counsel scattered throughout the varied places and periods 
+      of Church history; and {3} to get ‘acquainted’ with the major ‘gifts of 
+      Christ to His Church’ (cf. Eph. 4:10) through their writings. </div></span></i>Act 3: Practical Exercise</h2>
+        <p>Study Bible Commentary</p><h3 class="instructions" id="instructions-doxological"></h3>
     </div>
-</div>    
-    <div class="column full iframe-box" id="contemporary-worship">
-        <iframe class='iframe-box-reading-worship' src="https://www.youtube.com/embed/videoseries?list=PLcHqC9YNzSaAaAu19bKe9ERIjUfUSVf31" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="column full iframe-box" id="traditional-hymns">
-        <iframe class='iframe-box-reading-worship' src="https://www.youtube.com/embed/videoseries?list=PLT1vrQX09gh3mRm2JpQpNfss1NvCNbv3D" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="column full next-button">
-        <a href="am2.html"><button>Next Act</button></a>
-    </div>
+</div>
+    <object type="text/html" id="doxological-reading" class='iframe-box-reading'>
+        
+    </object>
+    
+    
+   <div class="column full next-button buffer">
+             <a href="pm4.html"><button>Next Act</button></a>
+        </div>
     <div class="column full back-to-menu">
         <p><a href="index.html">Back to Menu</a></p>
     </div>
@@ -76,7 +86,8 @@
         </div>
     </div>
   <script src="scripts/jquery-3.1.0.min.js"></script>
-  <script src="scripts/worship_choice.js"></script> 
-      
+<script src="scripts/date.js"></script>    
+  <script src="scripts/doxological-reading.js"></script>
+  <script src="scripts/hamburger.js"></script>    
 </body>
 </html>

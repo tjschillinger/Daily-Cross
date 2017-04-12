@@ -6,10 +6,24 @@ $(".left-arrow").click(function(){
     
         checkDate();
     
+       
+    
         var getInput = displayDate.format('MMMM Do');
         localStorage.setItem("storageName",getInput);
+        
+        
+        
+        var getInput2 = displayDate.format('dddd');
+        localStorage.setItem("theDay",getInput2);
+        
+        checkPrayerDate();
     
         window.name = displayDate.format('MMMM Do');
+     
+        
+    
+
+        
 });
 
 $(".right-arrow").click(function(){
@@ -21,7 +35,19 @@ $(".right-arrow").click(function(){
     var getInput = displayDate.format('MMMM Do');
     localStorage.setItem("storageName",getInput);
     
+    
+    
+    var getInput2 = displayDate.format('dddd');
+        localStorage.setItem("theDay",getInput2);
+    
+    checkPrayerDate();
+    
     window.name = displayDate.format('MMMM Do');
+    
+    
+    
+    
+    
 });
 
 $( document ).ready(function() {
@@ -31,9 +57,17 @@ $( document ).ready(function() {
             var displayDate = moment();
             window.name = displayDate.format('MMMM Do');
             $('#date').text(window.name);
+            
             var getInput = displayDate.format('MMMM Do');
             localStorage.setItem("storageName",getInput);
+            
+            var getInput2 = displayDate.format('dddd');
+            localStorage.setItem("theDay",getInput2);
+            
         };
     
+   
     checkDate();
+     checkPrayerDate();
+    
 });

@@ -33,9 +33,6 @@ a{
 .column.four-fifths{width:80%}
 .column.one-fifths{width:20%}
 
-.fa.fa-navicon.dropbtn{
-    font-size: 32px;
-}
 
 #myIframe {
     width: 600px;
@@ -43,11 +40,23 @@ a{
 }
 
 
+.instructional-link{
+    color: #438496;
+}
+
+.instructional-link:hover{
+    cursor: pointer;
+    color: #D6665A;
+}
 
 .iframe-box-reading-worship{
     width: 60%;
     height: 600px;
     
+}
+
+.little-buff{
+    margin-top: 3%;
 }
 
 .iframe-box-reading{
@@ -68,6 +77,19 @@ a{
   
   filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
     
+}
+
+.yellow{
+    color: #FDE541;
+    
+}
+
+.orange{
+    color: orange;
+}
+
+.red{
+    color: red;
 }
 
 .mobile-tabs{
@@ -144,11 +166,104 @@ a{
     text-align: center;
     Font-family: Ubuntu, Helvetica, Arial, sans-serif;
     margin-bottom: 0%;
+    font-weight: normal;
+    margin-top: 0%;
 }
 
 .tooltip {
     position: relative;
     display: inline-block;
+}
+
+.lords-prayer{
+    font-size: 24px;
+    text-align: left;
+    Font-family: Ubuntu, Helvetica, Arial, sans-serif;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.lords-prayer h3{
+    margin-top: 0%;
+}
+
+.lords-prayer p{
+    margin-bottom: 2%;
+    font-size: 14px;
+    text-align: left;
+    color: #438496;
+}
+
+#nation-3{
+    font-size: 24px;
+}
+
+#nation-2{
+    font-size: 24px;
+}
+
+#nation-1{
+    font-size: 24px;
+}
+
+.prayer-list p{
+    margin-bottom: 2%;
+    font-size: 14px;
+    text-align: left;
+    color: #438496;
+}
+
+.left-arrow:hover{
+    cursor: pointer;
+}
+
+.right-arrow:hover{
+    cursor: pointer;
+}
+
+.prayer-list a{
+    color: #438496;
+}
+
+.prayer-key{
+    height: 70px;
+    display: table;
+    text-align: center;
+}
+
+.prayer-key h4{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.prayer-list a:hover{
+    cursor: pointer;
+    color: #D6665A;
+}
+
+.lords-prayer a{
+    color: #438496;
+}
+
+#prayer-list a{
+     color: #438496;
+    font-size: 14px;
+}
+
+.offering-link{
+     color: #438496;
+    font-size: 14px;
+}
+
+
+#prayer-list a:hover{
+     cursor: pointer;
+    color: #D6665A;
+}
+
+.lords-prayer a:hover{
+    cursor: pointer;
+    color: #D6665A;
 }
 
 .tooltip .tooltiptext {
@@ -449,6 +564,9 @@ button:hover {
     font-size: 36px;
 }
 
+.pop-down {
+    font-size: 16px;
+}
 
 h1 i{
     margin-left: 5%;
@@ -501,6 +619,10 @@ h1 i{
         font-size: 18px;
     }
     
+    .prayer-key h4{
+        font-size: 14px;
+    }
+    
 }
 
 @media (max-width: 615px) {
@@ -550,6 +672,10 @@ h1 i{
 }
 
 @media (max-width: 400px) {
+    
+    .prayer-key h4{
+        font-size: 12px;
+    }
     
     .reveal-act h2{
         font-size: 24px;
