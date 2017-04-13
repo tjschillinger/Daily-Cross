@@ -20,23 +20,7 @@
  */
 
 // Get the Sequence element
-var sequenceElement1 = document.getElementById("sequence1");
-var mySequence1 = sequence(sequenceElement1);
-
-var sequenceElement2 = document.getElementById("sequence2");
-var mySequence2 = sequence(sequenceElement2);
-
-var sequenceElement3 = document.getElementById("sequence3");
-var mySequence3 = sequence(sequenceElement3);
-
-var sequenceElement4 = document.getElementById("sequence4");
-var mySequence4 = sequence(sequenceElement4);
-
-var sequenceElement5 = document.getElementById("sequence5");
-var mySequence5 = sequence(sequenceElement5);
-
-var sequenceElement6 = document.getElementById("sequence6");
-var mySequence6 = sequence(sequenceElement6);
+var sequenceElement = document.getElementById("sequence");
 // Place your Sequence options here to override defaults
 // See: http://sequencejs.com/documentation/#options
 var options = {
@@ -44,6 +28,4 @@ var options = {
 }
 
 // Launch Sequence on the element, and with the options we specified above
-
 var mySequence = sequence(sequenceElement, options);
-

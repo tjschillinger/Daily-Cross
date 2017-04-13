@@ -22,6 +22,7 @@ $(".left-arrow").click(function(){
      
         
         checkOfferingDate();
+        checkAuthorgDate()
 
         
 });
@@ -48,6 +49,7 @@ $(".right-arrow").click(function(){
      
         
         checkOfferingDate();
+        checkAuthorgDate()
 });
 
 
@@ -72,4 +74,5 @@ $( document ).ready(function() {
     checkDate();
      checkPrayerDate();
     checkOfferingDate();
+    checkAuthorgDate()
 });

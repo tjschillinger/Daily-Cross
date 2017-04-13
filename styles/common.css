@@ -167,7 +167,28 @@ a{
     Font-family: Ubuntu, Helvetica, Arial, sans-serif;
     margin-bottom: 0%;
     font-weight: normal;
-    margin-top: 0%;
+    margin-top: 5%;
+}
+
+.instructions-2{
+    font-size: 24px;
+    text-align: center;
+    Font-family: Ubuntu, Helvetica, Arial, sans-serif;
+    margin-bottom: 0%;
+    font-weight: bold;
+    margin-top: 2%;
+    color: #D6665A; 
+    line-height: 1.5;
+}
+
+#pm7-instructions a{
+    color: #438496;
+    font-size: 14px;
+}
+
+#pm7-instructions a:hover{
+    cursor: pointer;
+    color: #D6665A;
 }
 
 .tooltip {
@@ -739,6 +760,10 @@ h1 i{
     
     .instructions {
         font-size: 26px;
+    }
+    
+    .instructions-2 {
+        font-size: 32px;
     }
     
     button {

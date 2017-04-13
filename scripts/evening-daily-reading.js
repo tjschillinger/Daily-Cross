@@ -151,3 +151,115 @@ switch (h) {
         $("#morning").removeClass("buffer");
         $("#evening").addClass("buffer");
 }
+
+function checkAuthorgDate() {
+    var x = (localStorage.getItem("storageName"));
+    switch (x) {
+    case "April 1st":
+            document.getElementById("todays-author").innerHTML = "Jesus' Words"; 
+            break;
+    
+    case "April 2nd":
+            document.getElementById("todays-author").innerHTML = "God's Eternal Nature"; 
+            break;
+    
+    case "April 3rd":
+            document.getElementById("todays-author").innerHTML = "Solomon's Words"; 
+            break;
+    
+    case "April 4th":
+            document.getElementById("todays-author").innerHTML = "Solomon's Words"; 
+            break;
+    
+    case "April 5th":
+            document.getElementById("todays-author").innerHTML = "Solomon's Words"; 
+            break;
+    
+    case "April 6th":
+            document.getElementById("todays-author").innerHTML = "Solomon's Words"; 
+            break;
+    
+    case "April 7th":
+            document.getElementById("todays-author").innerHTML = "Solomon's Words"; 
+            break;
+    
+    case "April 8th":
+            document.getElementById("todays-author").innerHTML = "Solomon's Words"; 
+            break;
+
+        case "April 9th":
+            document.getElementById("todays-author").innerHTML = "God's Name, El Qanno"; 
+            break;
+        
+        case "April 10th":
+            document.getElementById("todays-author").innerHTML = "Isaiah's Words"; 
+            break;
+        
+        case "April 11th":
+            document.getElementById("todays-author").innerHTML = "Isaiah's Words"; 
+            break;
+        
+        case "April 12th":
+            document.getElementById("todays-author").innerHTML = "Isaiah's Words"; 
+            break;
+            
+        case "April 13th":
+            document.getElementById("todays-author").innerHTML = "Isaiah's Words"; 
+            break;
+        case "April 14th":
+            document.getElementById("todays-author").innerHTML = "Isaiah's Words"; 
+            break;
+        case "April 15th":
+            document.getElementById("todays-author").innerHTML = "Isaiah's Words"; 
+            break; 
+            
+        case "April 16th":
+            document.getElementById("todays-author").innerHTML = "God's Spiritual Nature"; 
+            break;
+            
+        case "April 17th":
+            document.getElementById("todays-author").innerHTML = "Jeremiah's Words"; 
+            break;
+        case "April 18th":
+            document.getElementById("todays-author").innerHTML = "Jeremiah's Words"; 
+            break;
+        case "April 19th":
+            document.getElementById("todays-author").innerHTML = "Jeremiah's Words"; 
+            break;
+        case "April 20th":
+            document.getElementById("todays-author").innerHTML = "Jeremiah's Words"; 
+            break; 
+        case "April 21st":
+            document.getElementById("todays-author").innerHTML = "Jeremiah's Words"; 
+            break;  
+        case "April 22nd":
+            document.getElementById("todays-author").innerHTML = "Jeremiah's Words"; 
+            break;  
+        case "April 23rd":
+            document.getElementById("todays-author").innerHTML = "God's Name, Elohe Israel"; 
+            break;   
+        
+        case "April 24th":
+            document.getElementById("todays-author").innerHTML = "Jesus' Words"; 
+            break;
+        case "April 25th":
+            document.getElementById("todays-author").innerHTML = "Jesus' Words"; 
+            break; 
+        case "April 26th":
+            document.getElementById("todays-author").innerHTML = "Jesus' Words"; 
+            break;
+        case "April 27th":
+            document.getElementById("todays-author").innerHTML = "Jesus' Words"; 
+            break;
+        case "April 28th":
+            document.getElementById("todays-author").innerHTML = "Jesus' Words"; 
+            break; 
+        case "April 29th":
+            document.getElementById("todays-author").innerHTML = "Jesus' Words"; 
+            break; 
+        case "April 30th":
+            document.getElementById("todays-author").innerHTML = "God's Omnipresent Nature"; 
+            break;    
+    }
+}
+    
