@@ -213,6 +213,13 @@ a{
     color: #438496;
 }
 
+offering-list p{
+    margin-bottom: 2%;
+    font-size: 14px;
+    text-align: left;
+    color: #438496;
+}
+
 .left-arrow:hover{
     cursor: pointer;
 }
@@ -223,6 +230,14 @@ a{
 
 .prayer-list a{
     color: #438496;
+}
+
+offering-list a{
+    color: #438496;
+}
+
+offering-list h3{
+    font-family: Ubuntu, Helvetica, Arial, sans-serif;
 }
 
 .prayer-key{
@@ -237,6 +252,11 @@ a{
 }
 
 .prayer-list a:hover{
+    cursor: pointer;
+    color: #D6665A;
+}
+
+offering-list a:hover{
     cursor: pointer;
     color: #D6665A;
 }
@@ -672,6 +692,16 @@ h1 i{
 }
 
 @media (max-width: 400px) {
+    
+    .prayer-list h3{
+        font-size: 22px;
+        
+    }
+    
+    .lords-prayer h3{
+        font-size: 24px;
+        line-height: 1.5;
+    }
     
     .prayer-key h4{
         font-size: 12px;

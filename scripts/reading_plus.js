@@ -21,7 +21,7 @@ $(".left-arrow").click(function(){
         window.name = displayDate.format('MMMM Do');
      
         
-    
+        checkOfferingDate();
 
         
 });
@@ -30,25 +30,27 @@ $(".right-arrow").click(function(){
     
     $('#date').text(displayDate.add(1, 'days').format('MMMM Do'));
     
-    checkDate();
+        checkDate();
     
-    var getInput = displayDate.format('MMMM Do');
-    localStorage.setItem("storageName",getInput);
+       
     
-    
-    
-    var getInput2 = displayDate.format('dddd');
+        var getInput = displayDate.format('MMMM Do');
+        localStorage.setItem("storageName",getInput);
+        
+        
+        
+        var getInput2 = displayDate.format('dddd');
         localStorage.setItem("theDay",getInput2);
+        
+        checkPrayerDate();
     
-    checkPrayerDate();
-    
-    window.name = displayDate.format('MMMM Do');
-    
-    
-    
-    
-    
+        window.name = displayDate.format('MMMM Do');
+     
+        
+        checkOfferingDate();
 });
+
+
 
 $( document ).ready(function() {
     if( window.name.length > 0){
@@ -69,5 +71,5 @@ $( document ).ready(function() {
    
     checkDate();
      checkPrayerDate();
-    
+    checkOfferingDate();
 });
