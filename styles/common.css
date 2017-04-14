@@ -109,6 +109,33 @@ a{
     
 }
 
+#devotional-choice{
+    color: #438496;
+}
+
+#devotional-choice:hover{
+    color: #D6665A;
+    cursor: pointer;
+}
+
+#sermon-choice{
+    color: #438496;
+}
+
+#sermon-choice:hover{
+    color: #D6665A;
+    cursor: pointer;
+}
+
+#history-choice{
+    color: #438496;
+}
+
+#history-choice:hover{
+    color: #D6665A;
+    cursor: pointer;
+}
+
 #contemporary-choice{
     color: #438496;
 }
@@ -191,6 +218,12 @@ a{
     cursor: pointer;
     color: #D6665A;
 }
+
+.instructions a:hover{
+    cursor: pointer;
+    color: #D6665A;
+}
+
 
 .tooltip {
     position: relative;
