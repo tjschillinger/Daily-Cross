@@ -22,7 +22,7 @@ $(".left-arrow").click(function(){
      
         
         checkOfferingDate();
-        checkAuthorgDate()
+        checkAuthorgDate();
 
         
 });
@@ -49,7 +49,7 @@ $(".right-arrow").click(function(){
      
         
         checkOfferingDate();
-        checkAuthorgDate()
+        checkAuthorgDate();
 });
 
 
@@ -58,7 +58,6 @@ $( document ).ready(function() {
     if( window.name.length > 0){
             $('#date').text(window.name);
         } else{
-            var displayDate = moment();
             window.name = displayDate.format('MMMM Do');
             $('#date').text(window.name);
             
@@ -74,5 +73,5 @@ $( document ).ready(function() {
     checkDate();
      checkPrayerDate();
     checkOfferingDate();
-    checkAuthorgDate()
+    checkAuthorgDate();
 });

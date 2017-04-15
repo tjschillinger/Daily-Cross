@@ -10,9 +10,21 @@ body, html {
     text-align: center;
 }
 
+.footer a{
+    color: white;
+}
+
+.footer a:hover{
+    color: #D6665A;
+}
+
 a{
     text-decoration: none;
     color: white;
+}
+
+div#date{
+    color: #438496;
 }
 
 .column {
@@ -33,6 +45,114 @@ a{
 .column.four-fifths{width:80%}
 .column.one-fifths{width:20%}
 
+.logo-box{
+    float: left;
+    height: 70px;
+    display: table;
+    margin-left: 10%;
+}
+
+.logo-box a{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.mobile-tabs{
+    height: 70px;
+    position: relative;
+    background-color: #438496;
+    background: -webkit-linear-gradient(left top, #438496, rgba(67, 132, 150, .7));
+}
+
+.mobile-tabs ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+.mobile-tabs li {
+    list-style: none;
+}
+.mobile-tabs a {
+    text-decoration: none;
+    color: #000000;
+}
+.mobile-tabs ul > li {
+    float: right;
+    height: 70px;
+    display: table;
+    width: 200px;
+}
+
+.active{
+    background-color: #D6665A;
+}
+
+.mobile-tabs ul > li i.fa.fa-navicon{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.mobile-tabs ul > li a {
+    color: black;
+    line-height: 40px;
+    height:40px;
+    display:block;
+    padding:0px 5%;
+}
+
+.mobile-tabs ul li ul {
+    display: none;
+    position: absolute;
+    background: white;
+    top:70px;
+    width: 200px;
+    right: 0px;
+    border-radius: 0 0 0 15px;
+     -moz-box-shadow: 4px 4px 14px #000;
+  -webkit-box-shadow: 4px 4px 14px #000;
+  box-shadow: 4px 4px 14px #000;
+}
+
+.mobile-tabs ul li ul li {
+    float: none;
+    text-align: center;
+    display: table;
+    height: 70px;
+    width: 100%;
+   
+}
+
+.mobile-tabs ul li ul li:hover {
+    background-color: rgba(214, 102, 90, .1);
+   
+}
+
+.mobile-tabs ul li ul li a{
+    display: table-cell;
+    vertical-align: middle;
+    font-weight: normal;
+    font-family: Ubuntu, Helvetica, Arial, sans-serif;
+}
+
+.mobile-tabs ul li ul li a:hover{
+    color: #D6665A;
+}
+
+
+
+.fa.fa-navicon{
+    color: white;
+    font-size: 36px;
+}
+
+.fa.fa-navicon:hover{
+    cursor: pointer;
+}
+
+.column.full.box.reveal-act h2{
+    color: rgba(214, 102, 90, 1);
+}
 
 #myIframe {
     width: 600px;
@@ -90,18 +210,6 @@ a{
 
 .red{
     color: red;
-}
-
-.mobile-tabs{
-    height: 70px;
-    width: 100%;
-    position: fixed;
-    background-color: #438496;
-    background: -webkit-linear-gradient(left top, #438496, rgba(67, 132, 150, .7));
-
-    text-align: center;
-    color: white;
-    display: none;
 }
 
 .exercise-box:hover{
@@ -194,7 +302,7 @@ a{
     Font-family: Ubuntu, Helvetica, Arial, sans-serif;
     margin-bottom: 0%;
     font-weight: normal;
-    margin-top: 5%;
+    margin-top: 15%;
     text-transform: uppercase;
 }
 
@@ -277,10 +385,12 @@ offering-list p{
 
 .left-arrow:hover{
     cursor: pointer;
+    color: #D6665A;
 }
 
 .right-arrow:hover{
     cursor: pointer;
+    color: #D6665A;
 }
 
 .prayer-list a{
@@ -385,28 +495,12 @@ h4{
     Font-family: Ubuntu, Helvetica, Arial, sans-serif;
 }
 
-.nav-bar h2:hover{
-    font-weight: bolder;
-}
-
-.nav-bar{
-    background-color: #438496;
-    background: -webkit-linear-gradient(left top, #438496, rgba(67, 132, 150, .7));
-
-    text-align: center;
-    color: white;
-}
-
-.nav-bar h2{
-    color: white;
-    font-size: 1.3rem;
-    font-weight: normal;
-}
-
 .logo{
-    text-align: left;
+    
     height: 70px;
     display: table;
+    vertical-align: middle;
+    margin-left: 5%;
 }
 
 .sponsor{
@@ -429,7 +523,7 @@ h4{
     vertical-align: middle;
 }
 
-.logo img{
+.logo a{
     height: 50px;
     width: auto;
     display: table-cell;
@@ -500,9 +594,16 @@ h4{
     box-shadow: 5px 0 5px -4px rgba(31, 73, 125, 0.8), -5px 0 4px -4px rgba(31, 73, 125, 0.8);
 }
 
-.title h2{
+.title a{
     text-align: center;
     font-size: 36px;
+    color:#D6665A; 
+    font-weight: lighter;
+}
+
+.title a:hover{
+    cursor: pointer;
+    font-weight: bolder;
 }
 
 .button{
@@ -570,6 +671,10 @@ div.column.one-fifths.paxises h4{
     box-shadow: 5px 0 5px -4px rgba(31, 73, 125, 0.8), -5px 0 4px -4px rgba(31, 73, 125, 0.8);
 }
 
+.bottom{
+    border-bottom: 2px solid black;
+}
+
 .top{
     border-top: 1px solid black;
 }
@@ -580,10 +685,10 @@ div.column.one-fifths.paxises h4{
 }
 
 button {
-    background-color: #D6665A;
+    background-color: #438496;
     border: none;
     color: white;
-    padding: 25px 25px;
+    padding: 15px 25px;
     text-align: center;
     text-decoration: none;
     font-size: 24px;
@@ -591,6 +696,7 @@ button {
     border-radius: 15px;
     margin-bottom: 0%;
     font-weight: inherit;
+    width: 100%;
 }
 
 .back-to-menu{
@@ -602,6 +708,10 @@ button {
     color: #438496;
 }
 
+.back-to-menu a:hover{
+    color: #D6665A;
+}
+
 .next-button{
     text-align: center;
     margin-top: 3%;
@@ -611,6 +721,7 @@ button {
 button:hover {
     cursor: pointer;
     font-weight: bold;
+    background-color: #D6665A;
 }
 
 .fa.fa-info-circle.icon-title{
@@ -725,10 +836,12 @@ h1 i{
     .column.three-fifths.actual-date{
         height: 120px;
         display: table;
+        
     }
     
+    
     .date-arrow i{
-      font-size: 24px;
+      font-size: 24px; 
     }
     
     .title h2{

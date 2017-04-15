@@ -12,32 +12,21 @@
 </head>
 <body>
     <!-- nav bar-->
-    <div class="nav-bar column full">
-        <div class="logo column third">
-            <a href="index.html"><img  src="images/human_kind_logo.png" alt="Logo"></a>
+    <div class="mobile-tabs column full">
+        <div class="logo-box">
+            <a href="index.html"><img src="index.html"></a>
         </div>
-        <div class="FAQ column third">
-             <h2>
-               <a href="FAQ.html#top"> F.A.Q.</a>
-            </h2>
-        </div>
-        <div class="sponsor column third">
-            <h2><a href="Sponsor.html">Become a Sponsor</a></h2>
-        </div>
-    </div>
-
-    <div class="mobile-tabs">
-        <div class="logo column third">
-            <a href="index.html"><img  src="images/human_kind_logo.png" alt="Logo"></a>
-        </div>
-        <div class="dropdown">
-            <i class="fa fa-navicon dropbtn"></i>
-            <div class="dropdown-content hidden">
-                <a href="FAQ.html#top">F.A.Q.</a>
-                <a href="Sponsor.html">Become a Sponsor</a>
-            </div>
-        </div>
-    </div>   
+        <ul>
+            <li class="highlight"><i class="fa fa-navicon"></i>
+                <ul>
+                    <li><a href="About.html">About <b>Pete Lackey</b></a></li>
+                    <li><a href="#">Theological Approach</a></li>
+                    <li><a href="#">Chart Documentation</a></li>
+                    <li><a href="#"><b>Donate</b></a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>  
 <div class="header colum full container">
     <div class="column full act-title">
         <h2><i class="fa fa-info-circle icon-title tooltip" onclick=""><span class="tooltiptext"><b>Pete Lackey Says:</b> <br><br>Why?<br><br><div style="text-align: left">Simply because I want to order every belief and behavior by 
@@ -47,10 +36,10 @@
       my long-term goal of being sufficiently well-versed in God’s Word to 
       be able {1} to aid others in understanding it—as a compassionate 
       priestly interpreter and {2} to answer others who may be seeking to 
-      undermine it—as a competent priestly interpreter. </div></span></i>Act 5: Missional Reading</h2>
+      undermine it—as a competent priestly interpreter. </div></span></i>Step 5: Read Bible History</h2>
         <p>Read the chapters assigned to the day. These readings are chonological and if read daily will allow you to read the entire Bible in one year. Try to marinate your mind in the whole Word of God as a faithful 
       priest listening intently to all God has said to men with an awareness 
-      that you've been called to share all of that with others on God’s behalf.</p><h3 class="instructions" id="instructions-missional"></h3>
+      that you've been called to witness to others on God’s behalf.</p><h3 class="instructions" id="instructions-missional"></h3>
     </div>
 </div> 
     
@@ -58,11 +47,11 @@
         
     </object>
     
-    <div class="column full next-button buffer">
-            <a href="am6.html"><button>Next Act</button></a>
+    <div class=" column full container">   
+        <div class="column full next-button buffer">
+            <a href="am6.html"><button class="buffer">Next Step</button></a>
+            <p class="column full back-to-menu"><a href="index.html">Back to Menu</a></p>
         </div>
-    <div class="column full back-to-menu">
-        <p><a href="index.html">Back to Menu</a></p>
     </div>
 <!--Footer-->
     <div class="column full footer">
@@ -89,8 +78,9 @@
         </div>
     </div>
   <script src="scripts/jquery-3.1.0.min.js"></script>
+    <script src="scripts/hamburger.js"></script>
   <script src="scripts/date.js"></script> 
   <script src="scripts/missional-reading.js"></script>
-  <script src="scripts/hamburger.js"></script>    
+      
 </body>
 </html>
