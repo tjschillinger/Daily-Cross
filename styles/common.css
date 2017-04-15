@@ -64,7 +64,7 @@ div#date{
      -moz-box-shadow: 4px 4px 14px #000;
   -webkit-box-shadow: 4px 4px 14px #000;
   box-shadow: 4px 4px 14px #000;
-    
+     
 }
 
 .mobile-tabs ul, li, a {
@@ -879,6 +879,10 @@ h1 i{
 
 @media (max-width: 400px) {
     
+    .logo-box{
+        margin-left: 8%;
+    }
+    
     .prayer-list h3{
         font-size: 22px;
         
@@ -940,4 +944,17 @@ h1 i{
         font-size: 16px;
     }
     
+    .mobile-tabs ul li ul {
+        width: 200px;
+    }
+    
+    .mobile-tabs ul > li {
+        width: 100px;
+    }
+    
+    .mobile-tabs ul li ul li a{
+        font-size: 16px;
+        line-height: 1.1;
+
+    }
 }
