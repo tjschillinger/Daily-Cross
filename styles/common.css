@@ -62,7 +62,7 @@ div#date{
     height: 70px;
     position: relative;
     background-color: #438496;
-    background: -webkit-linear-gradient(left top, #438496, rgba(67, 132, 150, .7));
+    background: -webkit-linear-gradient(right top, #438496, rgba(67, 132, 150, .7));
 }
 
 .mobile-tabs ul, li, a {
@@ -478,6 +478,10 @@ p{
     Font-family: Ubuntu, Helvetica, Arial, sans-serif;
     font-size: 24px;
     line-height: 1.5;
+}
+
+.logo-box img{
+    height: 60px;
 }
 
 h3{
