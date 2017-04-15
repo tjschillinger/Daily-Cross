@@ -61,8 +61,10 @@ div#date{
 .mobile-tabs{
     height: 70px;
     position: relative;
-    background-color: #438496;
-    background: -webkit-linear-gradient(right top, #438496, rgba(67, 132, 150, .7));
+     -moz-box-shadow: 4px 4px 14px #000;
+  -webkit-box-shadow: 4px 4px 14px #000;
+  box-shadow: 4px 4px 14px #000;
+    
 }
 
 .mobile-tabs ul, li, a {
@@ -86,6 +88,7 @@ div#date{
 
 .active{
     background-color: #D6665A;
+    color: white;
 }
 
 .mobile-tabs ul > li i.fa.fa-navicon{
@@ -139,10 +142,15 @@ div#date{
     color: #D6665A;
 }
 
+.highlight{
+    color: #438496;
+}
 
+.highlight-icon{
+    color: white;
+}
 
 .fa.fa-navicon{
-    color: white;
     font-size: 36px;
 }
 
