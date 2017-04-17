@@ -528,6 +528,31 @@ offering-list a:hover{
     font-size: 14px;
 }
 
+.offering-link-1:hover{
+    cursor: pointer;
+    color: #D6665A;
+}
+
+.offering-link-2:hover{
+    cursor: pointer;
+    color: #D6665A;
+}
+
+.offering-link-3:hover{
+    cursor: pointer;
+    color: #D6665A;
+}
+
+.offering-link-4:hover{
+    cursor: pointer;
+    color: #D6665A;
+}
+
+.offering-link-5:hover{
+    cursor: pointer;
+    color: #D6665A;
+}
+
 
 
 #prayer-list a:hover{

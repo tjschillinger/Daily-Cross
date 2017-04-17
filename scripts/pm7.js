@@ -8,7 +8,7 @@ switch (x) {
         document.getElementById("pm7-reading").data = "https://www.bible.com/bible/111/MAT.7.NIV";
         break;
     case "April 2nd":  
-        document.getElementById("pm7-instructions").innerHTML = "<b>God is Eternal (never ending <a class='tooltip' onclick='' href='https://www.bible.com/bible/59/ISA.57.15.esv'><span class='tooltiptext-2'>'For thus says the One who is high and lifted up, who inhabits eternity, whose name is Holy: ''I dwell in the high and holy place, and also with him who is of a contrite and lowly spirit, to revive the spirit of the lowly, and to revive the heart of the contrite.'</div></span>Is 57:15</a>).</b> <br>Meditate on what this means for these 6 Questions:";
+        document.getElementById("pm7-instructions").innerHTML = "<b>God is Eternal (never ending <a class='tooltip' onclick=''><span class='tooltiptext-2'>'For thus says the One who is high and lifted up, who inhabits eternity, whose name is Holy: ''I dwell in the high and holy place, and also with him who is of a contrite and lowly spirit, to revive the spirit of the lowly, and to revive the heart of the contrite.'</div></span>Is 57:15</a>).</b> <br>Meditate on what this means for these 6 Questions:";
         $("#name-questions").removeClass("hidden");
         $("#pm7-question").addClass("hidden");
         $("object").addClass("hidden");
