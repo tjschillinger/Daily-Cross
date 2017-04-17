@@ -3,7 +3,6 @@ $("#prayer-act-1").click(function(){
     $(".prayer-round-box-1").toggleClass("active");
     $(".prayer-round-box-1").toggleClass("flat-bottom-2");
     $(".offering-link-1").toggleClass("white");
-    $(".fa-info-circle").toggleClass("white");
 });
 
 $("#prayer-act-2").click(function(){

@@ -296,14 +296,14 @@ div#date{
 
 .tooltip .tooltiptext-2 {
     visibility: hidden;
-    width: 500px;
+    width: 250px;
     background-color: #438496;
     background: -webkit-linear-gradient(left top, #438496, rgba(67, 132, 150, .8));
     color: #fff;
     text-align: center;
     border-radius: 6px;
     padding: 20px 20px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
     font-family: Ubuntu, Helvetica, Arial, sans-serif;
     text-transform: capitalize;
@@ -526,31 +526,6 @@ offering-list a:hover{
 .offering-link-5{
      color: #438496;
     font-size: 14px;
-}
-
-.offering-link-1:hover{
-    cursor: pointer;
-    color: #D6665A;
-}
-
-.offering-link-2:hover{
-    cursor: pointer;
-    color: #D6665A;
-}
-
-.offering-link-3:hover{
-    cursor: pointer;
-    color: #D6665A;
-}
-
-.offering-link-4:hover{
-    cursor: pointer;
-    color: #D6665A;
-}
-
-.offering-link-5:hover{
-    cursor: pointer;
-    color: #D6665A;
 }
 
 
@@ -1184,27 +1159,22 @@ h1 i{
     }
     
     .offering-link-1{
-     color: #438496;
     font-size: 8px;
 }
 
     .offering-link-2{
-         color: #438496;
         font-size: 8px;
     }
 
     .offering-link-3{
-         color: #438496;
         font-size: 8px;
     }
 
     .offering-link-4{
-         color: #438496;
         font-size: 8px;
     }
 
     .offering-link-5{
-         color: #438496;
         font-size: 8px;
     }
 }
