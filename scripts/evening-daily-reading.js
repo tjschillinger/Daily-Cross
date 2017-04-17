@@ -54,12 +54,12 @@ function checkPrayerDate() {
      };
     
     if (d ==="Monday"){
-        document.getElementById("prayer-home").innerHTML = "Act 5: <b>Pray for Your Family / Relatives</b>";
+        document.getElementById("prayer-home").innerHTML = "Act 5: <b>Pray for Your Family</b>";
         document.getElementById("sunday-offerings").innerHTML = "";
      };
     
     if (d ==="Tuesday"){
-        document.getElementById("prayer-home").innerHTML = "Act 5: <b>Pray for Your Friends / Acquaintances</b>";
+        document.getElementById("prayer-home").innerHTML = "Act 5: <b>Pray for Your Friends</b>";
         document.getElementById("sunday-offerings").innerHTML = "";
      };
     
