@@ -36,20 +36,20 @@ html,
 .seq {
   position: relative;
   /* Dimensions */
-  width: 100%;
+  width: 95%;
   height: 300px;
-  max-width: 100%;
+  max-width: 95%;
   /* Hide anything that goes beyond the boundaries of the Sequence container */
   overflow: hidden;
   /* Center the Sequence container on the page */
   margin: 0 auto;
-  padding: 0;
+  padding: 5%;
   /* Some basic styles */
   font-family: sans-serif;
   background: #F8F8F8;
-    -moz-border-radius: 12px;
-  -webkit-border-radius: 12px;
-  border-radius: 12px;
+    -moz-border-radius: 0px 0px 12px 12px;
+  -webkit-border-radius: 0px 0px 12px 12px;
+  border-radius: 0px 0px 12px 12px;
     
     -moz-box-shadow: 4px 4px 14px #000;
   -webkit-box-shadow: 4px 4px 14px #000;

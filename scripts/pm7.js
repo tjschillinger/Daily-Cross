@@ -8,7 +8,7 @@ switch (x) {
         document.getElementById("pm7-reading").data = "https://www.bible.com/bible/111/MAT.7.NIV";
         break;
     case "April 2nd":  
-        document.getElementById("pm7-instructions").innerHTML = "<b>God is Eternal (never ending <a target='_blank' href='https://www.bible.com/bible/59/ISA.57.15.esv'>Is 57:15</a>). Meditate on what this means for these 6 Questions:</b>";
+        document.getElementById("pm7-instructions").innerHTML = "<b>God is Eternal (never ending <a class='tooltip' onclick='' href='https://www.bible.com/bible/59/ISA.57.15.esv'><span class='tooltiptext-2'>'For thus says the One who is high and lifted up, who inhabits eternity, whose name is Holy: ''I dwell in the high and holy place, and also with him who is of a contrite and lowly spirit, to revive the spirit of the lowly, and to revive the heart of the contrite.'</div></span>Is 57:15</a>).</b> <br>Meditate on what this means for these 6 Questions:";
         $("#name-questions").removeClass("hidden");
         $("#pm7-question").addClass("hidden");
         $("object").addClass("hidden");
@@ -56,7 +56,7 @@ switch (x) {
         break;
         
     case "April 9th":  
-        document.getElementById("pm7-instructions").innerHTML = "<b>God is El Qanno (Jealous God). Meditate on what this means for these 6 Questions:</b>";
+        document.getElementById("pm7-instructions").innerHTML = "<b>God is El Qanno (Jealous God).</b> <br>Meditate on what this means for these 6 Questions:";
         $("#name-questions").removeClass("hidden");
         $("#pm7-question").addClass("hidden");
         $("object").addClass("hidden");
@@ -105,7 +105,7 @@ switch (x) {
         break;
         
     case "April 16th":  
-        document.getElementById("pm7-instructions").innerHTML = "<b>God is spirit <a target='_blank' href='https://www.bible.com/bible/1/JHN.4.24.kjv'>Jn 4:24 </a>. Meditate on what this means for these 6 Questions:</b>";
+        document.getElementById("pm7-instructions").innerHTML = "<b>God is spirit <a class='tooltip' onclick=''><span class='tooltiptext-2'>'God is a Spirit: and they that worship him must worship him in spirit and in truth.'</div></span>Jn 4:24 </a>.</b> <br>Meditate on what this means for these 6 Questions:";
         $("#name-questions").removeClass("hidden");
         $("#pm7-question").addClass("hidden");
         $("object").addClass("hidden");
@@ -149,7 +149,7 @@ switch (x) {
         document.getElementById("pm7-reading").data = "https://www.bible.com/bible/111/JER.1.niv";
         break; 
     case "April 23rd":  
-        document.getElementById("pm7-instructions").innerHTML = "<b>God is Elohe Israel (God of Israel). Meditate on what this means for these 6 Questions:</b>";
+        document.getElementById("pm7-instructions").innerHTML = "<b>God is Elohe Israel (God of Israel).</b> <br>Meditate on what this means for these 6 Questions:";
         $("#name-questions").removeClass("hidden");
         $("#pm7-question").addClass("hidden");
         $("object").addClass("hidden");
@@ -191,7 +191,7 @@ switch (x) {
         document.getElementById("pm7-reading").data = "https://www.bible.com/bible/111/MAT.7.NIV";
         break;
     case "April 30th":  
-        document.getElementById("pm7-instructions").innerHTML = "<b>God is Omnipresent (everywhere <a target='_blank' href='https://www.biblegateway.com/passage/?search=Psalm%20139:7-10'>Ps 139:7-10</a>). Meditate on what this means for these 6 Questions:</b>";
+        document.getElementById("pm7-instructions").innerHTML = "<b>God is Omnipresent (everywhere <a class='tooltip' onclick=''><span class='tooltiptext-2'>'Where can I go from your Spirit? Where can I flee from your presence? If I go up to the heavens, you are there; if I make my bed in the depths, you are there. If I rise on the wings of the dawn; if I settle on the far side of the sea, even there your hand will guide me, your right hand will hold me fast.'</div></span>Ps 139:7-10</a>).</b> <br>Meditate on what this means for these 6 Questions:";
         $("#name-questions").removeClass("hidden");
         $("#pm7-question").addClass("hidden");
         $("object").addClass("hidden");

@@ -3,37 +3,37 @@
 
     if (d ==="Sunday"){
 
-        document.getElementById("prayer-list").innerHTML = "Pray for the Faithful (Other Christians <a target='_blank' href='https://biblia.com/bible/nasb95/Col%201.3-5'>Col. 1:5</a>)";
+        document.getElementById("prayer-list").innerHTML = "Pray for Other Christians <a class='tooltip'  onclick=''><span class='tooltiptext-2'>'We give thanks to God, the Father of our Lord Jesus Christ, praying always for you, since we heard of your faith in Christ Jesus and the blove which you have for call the saints; because of the ahope blaid up for you in heaven, of which you previously cheard in the word of truth, the gospel.'</span>Col. 1:5</a>";
     };
 
     if (d ==="Monday"){
 
-        document.getElementById("prayer-list").innerHTML = "Pray for Your Familiars (Family / Relatives <a target='_blank' href='https://www.bible.com/bible/59/JOB.1.1-5.ESV'>Job 1:1-5</a>)";
+        document.getElementById("prayer-list").innerHTML = "Pray for Your Family <a class='tooltip' onclick='' ><span class='tooltiptext-2'>'he would rise early in the morning and offer burnt offerings according to the number of them all. For Job said, ''It may be that my children have sinned, and cursed God in their hearts.'' Thus Job did continually.'</span>Job 1:1-5</a>";
     };
 
     if (d ==="Tuesday"){
 
-        document.getElementById("prayer-list").innerHTML = "Pray for Your Fellows (Friends / Acquaintances <a target='_blank' href='http://www.biblestudytools.com/2-corinthians/1-11.html'>2 Cor. 1:11</a>)";
+        document.getElementById("prayer-list").innerHTML = "Pray for Your Friends <a class='tooltip' onclick='' ><span class='tooltiptext-2'>'as you help us by your prayers. Then many will give thanks on our behalf for the gracious favor granted us in answer to the prayers of many..'</span>2 Cor. 1:11</a>";
     };
 
     if (d ==="Wednesday"){
 
-        document.getElementById("prayer-list").innerHTML = "Pray for the Framers (Leaders of All Kinds <a target='_blank' href='https://www.biblegateway.com/passage/?search=2+Timothy+2%3A1-2&version=KJV'>2 Timothy 2:1-2</a>)";
+        document.getElementById("prayer-list").innerHTML = "Pray for Your Leaders <a class='tooltip' onclick='' ><span class='tooltiptext-2'>'You then, my son, be strong in the grace that is in Christ Jesus. 2 And the things you have heard me say in the presence of many witnesses entrust to reliable people who will also be qualified to teach others.'</span>2 Tim 2:1-2</a>";
     };
 
     if (d ==="Thursday"){
 
-        document.getElementById("prayer-list").innerHTML = "Pray for the Feeble (the Suffering <a target='_blank' href='https://www.bible.com/bible/116/JAS.5.13-15.nlt'>James 5:13-15</a>)";
+        document.getElementById("prayer-list").innerHTML = "Pray for the Suffering <a class='tooltip' onclick=''><span class='tooltiptext-2'>'Are any of you suffering hardships? You should pray. Are any of you happy? You should sing praises. 14Are any of you sick? You should call for the elders of the church to come and pray over you, anointing you with oil in the name of the Lord. 15Such a prayer offered in faith will heal the sick, and the Lord will make you well. And if you have committed any sins, you will be forgiven.'</span>James 5:13-15</a>";
     };
 
     if (d ==="Friday"){
 
-        document.getElementById("prayer-list").innerHTML = "Pray for the Foes (Enemies / Abusers <a target='_blank' href='https://www.bible.com/bible/1/LUK.6.27-28.kjv'>Luke 6:27-28</a>)";
+        document.getElementById("prayer-list").innerHTML = "Pray for Those Who Have Wronged You <a class='tooltip' onclick=''><span class='tooltiptext-2'>'But I say unto you which hear, Love your enemies, do good to them which hate you, Bless them that curse you, and pray for them which despitefully use you.'</span>Luke 6:27-28</a>";
     };
 
     if (d ==="Saturday"){
 
-        document.getElementById("prayer-list").innerHTML = "Pray for Favors from the Lord (What do you need?  <a target='_blank' href='https://www.bible.com/bible/116/PHP.4.6.NLT'>Phil. 4:6</a>)";
+        document.getElementById("prayer-list").innerHTML = "Pray for Your Needs <a class='tooltip' onclick='' ><span class='tooltiptext-2'>'Don’t worry about anything; instead, pray about everything. Tell God what you need, and thank him for all he has done.'</span>Phil. 4:6</a>";
     };
 
 /*Nation Prayer List*/
