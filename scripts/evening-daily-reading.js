@@ -49,37 +49,37 @@ function checkOfferingDate() {
 function checkPrayerDate() {
     var d = (localStorage.getItem("theDay"));
     if (d ==="Sunday"){
-        document.getElementById("prayer-home").innerHTML = "Act 5: <b>Pray for Other Christians</b>";
+        document.getElementById("prayer-home").innerHTML = "Step 5: <b>Pray for Other Christians</b>";
         document.getElementById("sunday-offerings").innerHTML = ", Grain Offering"; 
      };
     
     if (d ==="Monday"){
-        document.getElementById("prayer-home").innerHTML = "Act 5: <b>Pray for Your Family</b>";
+        document.getElementById("prayer-home").innerHTML = "Step 5: <b>Pray for Your Family</b>";
         document.getElementById("sunday-offerings").innerHTML = "";
      };
     
     if (d ==="Tuesday"){
-        document.getElementById("prayer-home").innerHTML = "Act 5: <b>Pray for Your Friends</b>";
+        document.getElementById("prayer-home").innerHTML = "Step 5: <b>Pray for Your Friends</b>";
         document.getElementById("sunday-offerings").innerHTML = "";
      };
     
     if (d ==="Wednesday"){
-        document.getElementById("prayer-home").innerHTML = "Act 5: <b>Pray for Your Leaders</b>";
+        document.getElementById("prayer-home").innerHTML = "Step 5: <b>Pray for Your Leaders</b>";
         document.getElementById("sunday-offerings").innerHTML = "";
     }; 
     
     if (d ==="Thursday"){
-        document.getElementById("prayer-home").innerHTML = "Act 5: <b>Pray for the Suffering</b>";
+        document.getElementById("prayer-home").innerHTML = "Step 5: <b>Pray for the Suffering</b>";
         document.getElementById("sunday-offerings").innerHTML = "";
     };
     
     if (d ==="Friday"){
-        document.getElementById("prayer-home").innerHTML = "Act 5: <b>Pray for Your Enemies</b>";
+        document.getElementById("prayer-home").innerHTML = "Step 5: <b>Pray for Your Enemies</b>";
         document.getElementById("sunday-offerings").innerHTML = "";
     };
     
     if (d ==="Saturday"){
-        document.getElementById("prayer-home").innerHTML = "Act 5: <b>Pray for Your Needs</b>"; 
+        document.getElementById("prayer-home").innerHTML = "Step 5: <b>Pray for Your Needs</b>"; 
         document.getElementById("sunday-offerings").innerHTML = "";
       };   
 }

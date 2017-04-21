@@ -16,6 +16,11 @@ $(".projects-scroll").click(function() {
     }, 1000);
 });
 
+$("#help").click(function(){
+     introJs().start();
+});
+
 $(document).ready(function(){
     $(".reveal-act").addClass("hidden");
+    
 });
