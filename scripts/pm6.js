@@ -37,6 +37,10 @@ $("#prayer-act-5").click(function(){
     $(".fa-info-circle").toggleClass("white");
 });
 
+$("#help_2").click(function(){
+     introJs().start();
+});
+
 $(document).ready(function(){
     $("#prayer-act-1-reveal").addClass("hidden");
     $("#prayer-act-2-reveal").addClass("hidden");

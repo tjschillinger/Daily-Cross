@@ -21,7 +21,7 @@
                 <ul>
                     <li><a href="About.html">About <b>Pete Lackey</b></a></li>
                     <li><a href="#">Theological Approach</a></li>
-                    <li><a id="help" href="#">Site Tour</a></li>
+                    <li><a id="help" href="#">Tutorial</a></li>
                     <li><a href="#">Donate</a></li>
                 </ul>
             </li>
@@ -29,21 +29,21 @@
     </div>
     
     <div class="column three-fourths date">
-        <div class="column one-fifths date-arrow">
+        <div class="column one-fifths date-arrow" data-step="2" data-intro="If you missed a day, or want to back a date, click this arrow.">
             <i class="fa fa-chevron-left left-arrow "></i>
         </div>
         <div class="column three-fifths actual-date">
-            <h1 data-step="4" data-intro="Here is the date that your readings and whatnot are based on. If today is this date here, then you're right on track."><div id="date" name="date"></div></h1>
+            <h1 class="introduction-farm"  data-intro='Here is the date that all the readings, prayers, and such are base upon.'><div id="date" name="date"></div></h1>
         </div>
-        <div class="column one-fifths date-arrow">
+        <div class="column one-fifths date-arrow" data-step="3" data-intro="If you want to see what tomorrow's reading, prayers, and such are, click this arrow.">
            <i class="fa fa-chevron-right right-arrow"></i>
         </div>
             
     </div>
 <!-- Morning Exercises Am-->     
     
-        <div class="column full container" id="morning" >
-        <div class="column full title introduction-farm"  data-intro='Walk with the Lord every morning through these 7 steps.'>
+        <div class="column full container" id="morning">
+        <div class="column full title" data-step="4" data-intro="Walk with the Lord twice a day: in the morning and the evening. Both walks have 7 steps. The morning walk will have you reading straight from the bible to complete the entire book once a year!">
             <h2><a href="am1.html">Morning Walk</a></h2>
             
             <div class="column four-fifths paxises">
@@ -58,10 +58,10 @@
         
          <div class="column full box exercise-box top" onclick="location.href='am1.html';">
             <div class="act column full">
-                <div data-step="2" data-intro="This is step 1: worship! That's the way everyone should start their day, right?" class="column four-fifths paxises ">
+                <div class="column four-fifths paxises " data-step="5" data-intro="The first morning step is to worship. What could be better to start your day!">
                     <h4>Step 1: <b>Worship</b></h4>
                 </div>
-                <div data-step="3" data-intro="Here is the estimated time it may take you to complete a step. You may take longer, maybe shorter -just remember: it's not a race!" class="column one-fifths paxises">
+                <div class="column one-fifths paxises" data-step="6" data-intro="Here's the estimated time to complete the step. It could be shorter or longer. Remember, though, it's not a race!">
                     <h4>4 mins</h4>
                 </div>
             </div>
@@ -170,13 +170,13 @@
             
             
         </div>
-        <a href="am1.html"><div class="column full button">
+        <a href="am1.html"><div class="column full button nav-pills" data-step="8" data-intro="Whenever you're ready, just click here to begin the morning walk.">
             <h1>Begin (30ish Mins)</h1>
         </div></a>    
     </div>
  <!-- Evening Exercises pm-->        
     <div  class="column full container" id="evening" >
-        <div class="column full title">
+        <div class="column full title" data-step="7" data-intro="This is the evening walk. It has a lot of cool steps that include prayers, offerings, and meditating on our Lord!">
             <h2><a href="pm1.html">Evening Walk</a></h2>
             <div class="column four-fifths paxises">
                 <h3>Path</h3>
