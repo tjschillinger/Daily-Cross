@@ -22,5 +22,4 @@ $("#help").click(function(){
 
 $(document).ready(function(){
     $(".reveal-act").addClass("hidden");
-    
 });

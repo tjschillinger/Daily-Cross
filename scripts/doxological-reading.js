@@ -155,7 +155,7 @@
         document.getElementById("doxological-reading").data = "https://www.bible.com/bible/111/PSA.105.NIV";
     };
 
-    if (x==="April 23th"){
+    if (x==="April 23rd"){
 
         document.getElementById("instructions-doxological").innerHTML = "Read <b>Psalm 106</b>";
 

@@ -154,7 +154,7 @@ if (x==="April 22nd"){
     document.getElementById("practical-reading").data = "https://www.bible.com/bible/111/PRO.22.NIV";
 };
 
-if (x==="April 23th"){
+if (x==="April 23rd"){
 
     document.getElementById("instructions-practical").innerHTML = "Read <b>Proverbs 23</b>";
     

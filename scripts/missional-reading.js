@@ -133,7 +133,7 @@ if (x==="April 22nd"){
     document.getElementById("missional-reading").data = "https://www.bible.com/bible/111/PSA.6.NIV";
 };
 
-if (x==="April 23th"){
+if (x==="April 23rd"){
     document.getElementById("instructions-missional").innerHTML = "Read <b>1 Chronicles 1-2</b>";
     
     document.getElementById("missional-reading").data = "https://www.bible.com/bible/111/1CH.1.NIV";
