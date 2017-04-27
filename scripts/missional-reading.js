@@ -1,5 +1,196 @@
 var x = (localStorage.getItem("storageName")); 
 
+
+/*March*/
+if (x==="March 1st"){
+
+    document.getElementById("instructions-missional").innerHTML = "Read <b>Numbers 14-15, Psalms 90</b>";
+    
+    document.getElementById("missional-reading").data = "https://www.bible.com/bible/111/NUM.14";
+};
+
+if (x==="March 2nd"){
+    document.getElementById("instructions-missional").innerHTML = "Read <b>Numbers 16-17</b>";
+    
+    document.getElementById("missional-reading").data = "https://www.bible.com/bible/111/NUM.16";
+};
+
+if (x==="March 3nd"){
+    document.getElementById("instructions-missional").innerHTML = "Read <b>Numbers 18-20</b>";
+    
+    document.getElementById("missional-reading").data = "https://www.bible.com/bible/111/NUM.18";
+};
+
+if (x==="March 4th"){
+    document.getElementById("instructions-missional").innerHTML = "Read <b>Numbers 21-22</b>";
+    
+    document.getElementById("missional-reading").data = "https://www.bible.com/bible/111/NUM.21V";
+};
+
+if (x==="March 5th"){
+    document.getElementById("instructions-missional").innerHTML = "Read <b>Numbers 23-25</b>";
+    
+    document.getElementById("missional-reading").data = "https://www.bible.com/bible/111/NUM.23";
+};
+
+if (x==="March 6th"){
+    document.getElementById("instructions-missional").innerHTML = "Read <b>Numbers 26-27</b>";
+    
+    document.getElementById("missional-reading").data = "https://www.bible.com/bible/111/NUM.26";
+};
+
+if (x==="March 7th"){
+    document.getElementById("instructions-missional").innerHTML = "Read <b>Numbers 28-30</b>";
+    
+    document.getElementById("missional-reading").data = "https://www.bible.com/bible/111/NUM.28";
+};
+
+if (x==="March 8th"){
+    document.getElementById("instructions-missional").innerHTML = "Read <b>Numbers 31-32</b>";
+    
+    document.getElementById("missional-reading").data = "https://www.bible.com/bible/111/NUM.31";
+};
+
+if (x==="March 9th"){
+    document.getElementById("instructions-missional").innerHTML = "Read <b>Numbers 33-34</b>";
+    
+    document.getElementById("missional-reading").data = "https://www.bible.com/bible/111/NUM.33";
+};
+
+if (x==="March 10th"){
+    document.getElementById("instructions-missional").innerHTML = "Read <b>Numbers 35-36</b>";
+    
+    document.getElementById("missional-reading").data = "https://www.bible.com/bible/111/NUM.35";
+};
+
+if (x==="March 11th"){
+    document.getElementById("instructions-missional").innerHTML = "Read <b>Deuteronomy 1-2</b>";
+    
+    document.getElementById("missional-reading").data = "https://www.bible.com/bible/111/DEU.1.NIV";
+};
+
+if (x==="March 12th"){
+    document.getElementById("instructions-missional").innerHTML = "Read <b>Deuteronomy 3-4</b>";
+    
+    document.getElementById("missional-reading").data = "https://www.bible.com/bible/111/DEU.3.NIV";
+};
+
+if (x==="March 13th"){
+    document.getElementById("instructions-missional").innerHTML = "Read <b>Deuteronomy 5-7</b>";
+    
+    document.getElementById("missional-reading").data = "https://www.bible.com/bible/111/DEU.5.NIV";
+};
+
+if (x==="March 14th"){
+    document.getElementById("instructions-missional").innerHTML = "Read <b>Deuteronomy 8-10</b>";
+    
+    document.getElementById("missional-reading").data = "https://www.bible.com/bible/111/DEU.8.NIV";
+};
+
+if (x==="March 15th"){
+    document.getElementById("instructions-missional").innerHTML = "Read <b>Deuteronomy 11-13</b>";
+    
+    document.getElementById("missional-reading").data = "https://www.bible.com/bible/111/DEU.11.NIV";
+};
+
+if (x==="March 16th"){
+    document.getElementById("instructions-missional").innerHTML = "Read <b>Deuteronomy 14-16</b>";
+    
+    document.getElementById("missional-reading").data = "https://www.bible.com/bible/111/DEU.14.NIV";
+};
+
+if (x==="March 17th"){
+    document.getElementById("instructions-missional").innerHTML = "Read <b>Deuteronomy 17-20</b>";
+    
+    document.getElementById("missional-reading").data = "https://www.bible.com/bible/111/DEU.17.NIV";
+};
+
+if (x==="March 18th"){
+    document.getElementById("instructions-missional").innerHTML = "Read <b>Deuteronomy 21-23</b>";
+    
+    document.getElementById("missional-reading").data = "https://www.bible.com/bible/111/DEU.21.NIV";
+};
+
+if (x==="March 19th"){
+    document.getElementById("instructions-missional").innerHTML = "Read <b>Deuteronomy 24-27</b>";
+    
+    document.getElementById("missional-reading").data = "https://www.bible.com/bible/111/DEU.24.NIV";
+};
+
+if (x==="March 20th"){
+    document.getElementById("instructions-missional").innerHTML = "Read <b>Deuteronomy 28-29</b>";
+    
+    document.getElementById("missional-reading").data = "https://www.bible.com/bible/111/DEU.28.NIV";
+};
+
+if (x==="March 21st"){
+    document.getElementById("instructions-missional").innerHTML = "Read <b>Deuteronomy 30-31</b>";
+    
+    document.getElementById("missional-reading").data = "https://www.bible.com/bible/111/DEU.30.NIV";
+};
+
+if (x==="March 22nd"){
+    document.getElementById("instructions-missional").innerHTML = "Read <b>Deuteronomy 32-34, Psalms 91</b>";
+    
+    document.getElementById("missional-reading").data = "https://www.bible.com/bible/111/DEU.32.NIV";
+};
+
+if (x==="March 23rd"){
+    document.getElementById("instructions-missional").innerHTML = "Read <b>Joshua 1-4</b>";
+    
+    document.getElementById("missional-reading").data = "https://www.bible.com/bible/111/JOS.1.NIV";
+};
+
+if (x==="March 24th"){
+    document.getElementById("instructions-missional").innerHTML = "Read <b>Joshua 5-8</b>";
+    
+    document.getElementById("missional-reading").data = "https://www.bible.com/bible/111/JOS.5.NIV";
+};
+
+if (x==="March 25th"){
+    document.getElementById("instructions-missional").innerHTML = "Read <b>Joshua 9-11</b>";
+    
+    document.getElementById("missional-reading").data = "https://www.bible.com/bible/111/JOS.9.NIV";
+};
+
+if (x==="March 26th"){
+    document.getElementById("instructions-missional").innerHTML = "Read <b>Joshua 12-15</b>";
+    
+    document.getElementById("missional-reading").data = "https://www.bible.com/bible/111/JOS.12.NIV";
+};
+
+if (x==="March 27th"){
+    document.getElementById("instructions-missional").innerHTML = "Read <b>Joshua 16-18</b>";
+    
+    document.getElementById("missional-reading").data = "https://www.bible.com/bible/111/JOS.16.NIV";
+};
+
+if (x==="March 28th"){
+    document.getElementById("instructions-missional").innerHTML = "Read <b>Joshua 19-21</b>";
+    
+    document.getElementById("missional-reading").data = "https://www.bible.com/bible/111/JOS.19.NIV";
+};
+
+if (x==="March 29th"){
+    document.getElementById("instructions-missional").innerHTML = "Read <b>Joshua 22-24</b>";
+    
+    document.getElementById("missional-reading").data = "https://www.bible.com/bible/111/JOS.22.NIV";
+};
+
+if (x==="March 30th"){
+    document.getElementById("instructions-missional").innerHTML = "Read <b>Judges 1-2</b>";
+    
+    document.getElementById("missional-reading").data = "https://www.bible.com/bible/111/JDG.1.NIV";
+};
+
+if (x==="March 31st"){
+    document.getElementById("instructions-missional").innerHTML = "Read <b>Judges 3-5</b>";
+    
+    document.getElementById("missional-reading").data = "https://www.bible.com/bible/111/JDG.3.NIV";
+};
+
+
+/*April*/
 if (x==="April 1st"){
 
     document.getElementById("instructions-missional").innerHTML = "Read <b>Judges 6-7</b>";
