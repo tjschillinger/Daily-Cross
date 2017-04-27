@@ -266,7 +266,7 @@
         document.getElementById("nation-3").innerHTML = "<a target='_blank' href='https://en.wikipedia.org/wiki/Dominican_Republic'>Dominican Republic</a>";
     };
 
-    if (x==="April 26st"){
+    if (x==="April 26th"){
 
         document.getElementById("nation-1").innerHTML = "<a target='_blank' href='https://en.wikipedia.org/wiki/East_Timor'>East Timor</a>";
         
