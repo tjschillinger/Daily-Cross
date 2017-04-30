@@ -359,6 +359,10 @@ div#date{
     bottom: 0;
 }
 
+.toggle-instruction-box{
+    height: 40px;
+}
+
 .instructions{
     font-size: 32px;
     text-align: center;

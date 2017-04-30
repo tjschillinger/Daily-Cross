@@ -18,6 +18,10 @@ $(".projects-scroll").click(function() {
 
 $("#help").click(function(){
      introJs().start();
+    $("#morning").removeClass("hidden");
+     $("#evening").addClass("hidden");
+     $("#morning-toggle").addClass("toggle-active");
+     $("#evening-toggle").removeClass("toggle-active");
 });
 
 $("#evening-toggle").click(function(){
