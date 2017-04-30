@@ -701,7 +701,7 @@ h4{
     font-weight: normal;
 }
 .footer p{
-    font-size: .7rem;
+    font-size: 1rem;
     text-align:center;
     vertical-align: middle;
     display: table-cell;
@@ -1159,10 +1159,14 @@ h1 i{
 
 @media (max-width: 615px) {
     
+    .footer p{
+        font-size: .7rem;
+    }
+    
     .deep-container{
-    padding-right: 20%;
-    padding-left: 20%;
-}
+        padding-right: 20%;
+        padding-left: 20%;
+    }
     
     .iframe-box-prayer{
         height: 300px;
