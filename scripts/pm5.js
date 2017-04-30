@@ -26,6 +26,10 @@ $("#prayer-act-3").click(function(){
     $("#prayer-act-2-reveal").addClass("hidden");
 });
 
+$("#help-vid").click(function(){
+    $('#popup_this').bPopup();
+});
+
 $(document).ready(function(){
     $("#prayer-act-1-reveal").addClass("hidden");
     $("#prayer-act-2-reveal").addClass("hidden");

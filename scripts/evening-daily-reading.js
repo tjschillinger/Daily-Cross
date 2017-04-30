@@ -86,70 +86,71 @@ function checkPrayerDate() {
 
 switch (h) {
     case "3 pm":
-        $("#morning").insertAfter("#evening");
-        $("#morning").addClass("buffer");
-        $("#evening").removeClass("buffer");
+        $("#morning").addClass("hidden");
+        $("#evening").removeClass("hidden");
+        $("#evening-toggle").addClass("toggle-active");
+        
         break;
     case "4 pm":
-        $("#morning").insertAfter("#evening");
-        $("#morning").addClass("buffer");
-        $("#evening").removeClass("buffer");
+        $("#morning").addClass("hidden");
+        $("#evening").removeClass("hidden");
+        $("#evening-toggle").addClass("toggle-active");
         break;    
     case "5 pm":
-        $("#morning").insertAfter("#evening");
-        $("#morning").addClass("buffer");
-        $("#evening").removeClass("buffer");
+        $("#morning").addClass("hidden");
+        $("#evening").removeClass("hidden");
+        $("#evening-toggle").addClass("toggle-active");
         break;
     case "6 pm":
-        $("#morning").insertAfter("#evening");
-        $("#morning").addClass("buffer");
-        $("#evening").removeClass("buffer");
+        $("#morning").addClass("hidden");
+        $("#evening").removeClass("hidden");
+        $("#evening-toggle").addClass("toggle-active");
         break;
     case "7 pm":
-        $("#morning").insertAfter("#evening");
-        $("#morning").addClass("buffer");
-        $("#evening").removeClass("buffer");
+        $("#morning").addClass("hidden");
+        $("#evening").removeClass("hidden");
+        $("#evening-toggle").addClass("toggle-active");
         break;
     case "8 pm":
-        $("#morning").insertAfter("#evening");
-        $("#morning").addClass("buffer");
-        $("#evening").removeClass("buffer");
+        $("#morning").addClass("hidden");
+        $("#evening").removeClass("hidden");
+        $("#evening-toggle").addClass("toggle-active");
         break; 
     case "9 pm":
-        $("#morning").insertAfter("#evening");
-        $("#morning").addClass("buffer");
-        $("#evening").removeClass("buffer");
+        $("#morning").addClass("hidden");
+        $("#evening").removeClass("hidden");
+        $("#evening-toggle").addClass("toggle-active");
         break;
     case "10 pm":
-        $("#morning").insertAfter("#evening");
-        $("#morning").addClass("buffer");
-        $("#evening").removeClass("buffer");
+        $("#morning").addClass("hidden");
+        $("#evening").removeClass("hidden");
+        $("#evening-toggle").addClass("toggle-active");
         break;
     case "11 pm":
-        $("#morning").insertAfter("#evening");
-        $("#morning").addClass("buffer");
-        $("#evening").removeClass("buffer");
+        $("#morning").addClass("hidden");
+        $("#evening").removeClass("hidden");
+        $("#evening-toggle").addClass("toggle-active");
         break; 
     case "12 am":
-        $("#morning").insertAfter("#evening");
-        $("#morning").addClass("buffer");
-        $("#evening").removeClass("buffer");
+        $("#morning").addClass("hidden");
+        $("#evening").removeClass("hidden");
+        $("#evening-toggle").addClass("toggle-active");
         break;
     case "1 am":
-        $("#morning").insertAfter("#evening");
-        $("#morning").addClass("buffer");
-        $("#evening").removeClass("buffer");
+        $("#morning").addClass("hidden");
+        $("#evening").removeClass("hidden");
+        $("#evening-toggle").addClass("toggle-active");
         break;
     case "2 am":
-        $("#morning").insertAfter("#evening");
-        $("#morning").addClass("buffer");
-        $("#evening").removeClass("buffer");
+        $("#morning").addClass("hidden");
+        $("#evening").removeClass("hidden");
+        $("#evening-toggle").addClass("toggle-active");
         break;    
         
     default:
-        $("#evening").insertAfter("#morning");
-        $("#morning").removeClass("buffer");
-        $("#evening").addClass("buffer");
+        $("#morning").removeClass("hidden");
+        $("#evening").addClass("hidden");
+        $("#morning-toggle").addClass("toggle-active");
 }
 
 function checkAuthorgDate() {

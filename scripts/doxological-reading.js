@@ -1,4 +1,4 @@
-    var x = (localStorage.getItem("storageName")); 
+var x = (localStorage.getItem("storageName")); 
 
 
 if (x==="January 1st"){

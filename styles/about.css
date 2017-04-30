@@ -112,7 +112,7 @@ h4{
     height: 80%;
     background-repeat: no-repeat;
     object-fit:contain;
-    background-position: right top;
+    background-position: right 20%;
     background-size: 2200px auto;
     position: relative;
 }

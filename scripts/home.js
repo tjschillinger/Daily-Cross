@@ -20,6 +20,22 @@ $("#help").click(function(){
      introJs().start();
 });
 
+$("#evening-toggle").click(function(){
+     $("#morning").addClass("hidden");
+     $("#evening").removeClass("hidden");
+     $("#evening-toggle").addClass("toggle-active");
+     $("#morning-toggle").removeClass("toggle-active");
+});
+
+$("#morning-toggle").click(function(){
+     $("#morning").removeClass("hidden");
+     $("#evening").addClass("hidden");
+     $("#morning-toggle").addClass("toggle-active");
+     $("#evening-toggle").removeClass("toggle-active");
+});
+
+
+
 $(document).ready(function(){
     $(".reveal-act").addClass("hidden");
 });
