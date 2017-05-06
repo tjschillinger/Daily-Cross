@@ -209,17 +209,12 @@ div#date{
     width: 95%;
     height: 600px;
     
-    -moz-border-radius: 12px;
-  -webkit-border-radius: 12px;
-  border-radius: 12px;
-    
-    -moz-box-shadow: 4px 4px 14px #000;
-  -webkit-box-shadow: 4px 4px 14px #000;
-  box-shadow: 4px 4px 14px #000;
+   -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  box-shadow: 1px 1px 3px #000;
     
     margin-top: 10px;
-  margin-bottom: 30px;
-  padding: 1%;  
+  margin-bottom: 30px;  
   
   filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
 }
@@ -228,17 +223,14 @@ div#date{
     width: 60%;
     height: 600px;
     
-    -moz-border-radius: 12px;
-  -webkit-border-radius: 12px;
-  border-radius: 12px;
+ 
     
-    -moz-box-shadow: 4px 4px 14px #000;
-  -webkit-box-shadow: 4px 4px 14px #000;
-  box-shadow: 4px 4px 14px #000;
+    -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  box-shadow: 1px 1px 3px #000;
     
     margin-top: 10px;
-  margin-bottom: 30px;
-  padding: 1%;  
+  margin-bottom: 30px;  
   
   filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
     
